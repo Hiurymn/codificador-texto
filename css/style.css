@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    background-color: #E5E5E5;
+    box-sizing: border-box;
+    
+}
+
+.page-header{
+ height: auto;
+}
+.apresentacao{
+    display: flex;
+    box-sizing: border-box;
+}
+.page-header-logo {
+    width: 120px;
+    height: 48px;
+    top: 40px;
+    left: 40px;
+    gap: 40px; 
+    position: relative;
+}
+
+
+.section-main-imagens {
+    box-sizing: border-box;
+}
+
+.section-result-imagem {
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 141px;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.section-tela-branco {
+    position: relative;
+    width: 400px;
+    height: 744px;
+    left: 1000px;
+}
+.section-main-button-1 {
+    display: flex;
+    gap: 24px;
+    position: relative;
+    top: 555px;
+    left: 240px;
+    box-sizing: border-box;
+}
+
+.button-1 {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: darkblue;
+    color: white;
+}
+
+.button-2 {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: white;
+    color: darkblue;
+}
+
+.section-main-imagem-1 {
+    position: relative;
+}
+
+.section-main-caixatexto {
+    background-color: transparent;
+    outline: none;
+    border: 0 none;
+    position: absolute;
+    top: 168px;
+    left: 240px;
+    font-family:"Inter", sans-serif;;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: #0A3871;
+}
+
+.section-main-texto{
+    box-sizing: border-box;
+    width: 100vh;
+}
+
+.section-tela-branco-texto {
+    left: 1032px;
+    top: 500px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-sizing: border-box;
+    width: auto;
+
+}
+
+.sobre__mim {
+    text-align: center;
+}
+
+.section-main-imagems-alerta{
+    top: 550px;
+    left: 240px;
+    position: relative;
+    gap: 8px;
+    width: 252px;
+    height: 18px;
+}
+
+.section-tela-branco-texto-1{
+    font-family:"Inter", sans-serif;;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50%;
+    color: #343A40;
+    gap: 16px;
+    position: relative;
+    white-space: normal;
+    box-sizing: border-box;
+}
+
+.section-tela-branco-texto-2{
+    font-family:"Inter", sans-serif;;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #495057;
+}
+
+.btn-copiar{
+    display: flex;
+    position: relative;
+    top: 575px;
+    left: 355px;
+    box-sizing: border-box;
+}
+
+.btn-3{
+    width: 336px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: darkblue;
+    color: white;
+    gap: 8px;
+    border: 1px;
+    padding: 24px;
+    position: relative;
+}
+

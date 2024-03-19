@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <link rel="stylesheet" href="css/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador de texto </title>
+</head>
+<body>
+    <header class="page-header" >
+        <img class="page-header-logo" src="imagens/Frame 6.png" alt="logo alura">
+    </header>
+    <main class="apresentacao">
+        <section class="section-main-imagens">
+            <textarea class="section-main-caixatexto" placeholder="Digite seu texto" name="story" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" id="story" cols="30" rows="10"></textarea>
+            <div>
+                <img class="section-main-imagems-alerta" src="imagens/Frame 1.png" alt="apenas lestras minusculas">
+            </div>
+            <div class="section-main-button-1">
+                <button onclick="criptografarTexto()" class="button-1">Criptografar</button>
+                <button onclick="descriptografarTexto()" class="button-2">Descriptografar</button>
+            </div>
+        </section>
+        <section class="section-main-texto">
+            <div class="section-tela-branco-texto">
+                <h1 id="textocript" class="section-tela-branco-texto-1">Nenhuma mensagem encontrada</h1>
+                <h2 id="textoscript_2" class="section-tela-branco-texto-2">Digite um texto que você deseja criptografar ou descriptografar.</h2>
+            </div>
+            <div class="foto-menino">
+                <img id="imagemMenino" class="section-result-imagem" src="imagens/21004063.jpg" alt="menino com binoculos">
+            </div>
+            <div class="btn-copiar">
+                <button class="btn-3">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="sobre__mim">
+        
+    </footer>
+    <script src="app.js">
+    </script>
+</body>
+</html>
